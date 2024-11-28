@@ -21,7 +21,10 @@ function NavBar() {
             <li>
             <NavLink to={"about"}>Hakkında</NavLink> 
             </li>
-        
+            <li>
+            <NavLink to={"login"}>Login</NavLink> 
+            </li>
+            <li><NavLink to={"register"}>Register</NavLink> </li>
           </ul>
         </div>
       </div>
