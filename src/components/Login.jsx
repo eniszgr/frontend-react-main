@@ -18,14 +18,14 @@ function Login() {
               <div className="form-group">
                 <label className="col-sm-2 control-label">e-posta:</label>
                 <div className="col-sm-10">
-                  <input type="text" />
-                </div>
+                <input type="text" className="form-control input-lg" />
+              </div>
               </div>
               <div className="form-group">
                 <label className="col-sm-2 control-label">şifre:</label>
                 <div className="col-sm-10">
-                  <input type="text" />
-                </div>
+                <input type="text" className="form-control input-lg" />
+              </div>
               </div>
               {/* <Link to="/register">Kayıt ol</Link> */}
               <a href="register">kayıt ol</a>
