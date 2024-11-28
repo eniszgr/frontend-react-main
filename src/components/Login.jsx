@@ -1,6 +1,8 @@
 import Header from "./Header";
 import React from "react";
 import { useLocation} from "react-router-dom";
+import { NavLink,Link} from "react-router-dom";
+
 function Login() {
 
     return (
@@ -27,8 +29,8 @@ function Login() {
                 <input type="text" className="form-control input-lg" />
               </div>
               </div>
-              {/* <Link to="/register">Kayıt ol</Link> */}
-              <a href="register">kayıt ol</a>
+              <Link to="/register">Kayıt ol</Link>
+           
               <button className="btn btn-default pull-right">Girişyap </button>
             </form>
           </div>

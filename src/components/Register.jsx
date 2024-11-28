@@ -1,6 +1,6 @@
 import React from "react";
 import Header from "./Header";
-
+import { NavLink, Link} from "react-router-dom";
 function Register() {
  
 
@@ -33,8 +33,8 @@ function Register() {
                 <input type="password" className="form-control input-lg" />
               </div>
             </div>
-            {/* <Link to="/login" >giriş yap</Link> */}
-            <a href="login">giriş yap</a>
+            <Link to="/login" >giriş yap</Link>
+         
             <button className="btn btn-default pull-right">Kayıt ol</button>
           </form>
         </div>
